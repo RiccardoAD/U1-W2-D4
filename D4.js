@@ -164,8 +164,13 @@ console.log( " es 7 :",reverseString("EPICODE"));
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const cutString = function(par1) {
+    
+    
+    return par1.slice(1,par1.length -1);
+}
 
-
+console.log("esercizio 9: ",cutString("Buongiorno"));
 /* ESERCIZIO 10
  Scrivi una funzione di nome "giveMeRandom", che accetta come parametro un numero n e ritorna un'array contenente n numeri casuali inclusi tra 0 e 10.
 */
